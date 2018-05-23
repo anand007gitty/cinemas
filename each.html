@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('button').click(function(){
+      $('ul.check li').each(function(){
+          alert($(this).text());
+          return false;
+          
+      });
+  });
+});
+</script>
+</head>
+<body>
+
+<button>Alert the value of each list item</button>
+
+<ul class="check">
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Soda</li>
+</ul>
+
+<p> hsdjkhfjdf djhfdghf dfhgAPOFdnfjhv </p>
+<ul>
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Soda</li>
+</ul>
+<p> hsdjkhfjdf djhfdghf dfhgAPOFdnfjhv </p>
+<ul class="check">
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Soda</li>
+</ul>
+</body>
+</html>
